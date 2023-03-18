@@ -1,0 +1,15 @@
+.bg {
+  display: flex;
+  justify-content: space-between;
+  background-image: url("background.jpg");
+  position: relative;
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.navbar-nav .nav-item a {
+  color: white;
+}
+.h2 {
+  margin: 100px;
+}
