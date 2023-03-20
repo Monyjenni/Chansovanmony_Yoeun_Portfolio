@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Fasthand&family=Montserrat:wght@200&display=swap");
 .bg {
   display: flex;
   justify-content: space-between;
@@ -12,4 +13,7 @@
 }
 .h2 {
   margin: 100px;
+}
+.boed {
+  --bs-body-font-family: "Fasthand", cursive;
 }
