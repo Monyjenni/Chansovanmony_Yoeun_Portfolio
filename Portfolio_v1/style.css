@@ -8,27 +8,34 @@
   background-position: center;
   background-size: cover;
 }
-.navbar-nav .nav-item a {
-  color: rgb(202, 170, 170);
-  justify-content: flex-end;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-.h2 {
-  margin: 100px;
+.col-5 {
+  margin-bottom: 1000px;
 }
 .navbar {
+  position: absolute;
+  top: 50px;
+  left: 1000px;
+  font-size: 2rem;
   font-family: "Delicious Handrawn", cursive;
+  color: white;
+
 }
 
-.navbar a h3 {
-  font-size: 2rem;
-}
 .main-text {
   text-align: center;
   position: absolute;
-  top: 30%;
+  top: 50%;
   left: 30%;
   transform: translate(-50%, -50%);
   color: white;
+  margin-top: -100px;
 }
 .hero_title {
   font-size: 4.5rem;
