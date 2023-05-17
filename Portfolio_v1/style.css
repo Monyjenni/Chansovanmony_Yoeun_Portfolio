@@ -214,3 +214,7 @@ textarea {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+.col-social-links h2 {
+  margin-bottom: 100px;
+}
