@@ -209,12 +209,23 @@ textarea {
   background: #cc4949;
 }
 .row-contact {
-  padding: 100px 0;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.col-social-links h2 {
-  margin-bottom: 100px;
+.col-social-links {
+  align-items: center;
+  display: flex;
+}
+.row-img img {
+  border-radius: 50%;
+}
+.row-follow-me nav {
+  padding-top: 50px;
+  align-items: center;
+  margin-left: -50px;
+}
+.row-follow-me nav h2 {
+  margin-left: 100px;
 }
