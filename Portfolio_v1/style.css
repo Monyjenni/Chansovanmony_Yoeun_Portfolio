@@ -80,9 +80,11 @@ nav li {
 
 .main-text h3{
   color:darkblue;
+  font-weight: 300px;
 }
 .main-text p{
   color:darkblue;
+  font-weight: 200px;
 }
 
 .hero_title {
