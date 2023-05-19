@@ -15,7 +15,16 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
+.container nav {
+  display: flex;
+  justify-content: flex-end;
+}
+nav ul {
+  display: flex;
+}
+nav li {
+  margin-right: 10px;
+}
 .body {
   background: #080808;
   color: #fff;
@@ -48,7 +57,7 @@
   content: "";
   width: 0;
   height: 3px;
-  background: blueviolet;
+  background: rgb(71, 71, 225);
   position: absolute;
   left: 0;
   bottom: -6px;
@@ -65,9 +74,17 @@
   top: 50%;
   left: 30%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: darkblue;
   margin-top: -100px;
 }
+
+.main-text h3{
+  color:darkblue;
+}
+.main-text p{
+  color:darkblue;
+}
+
 .hero_title {
   font-size: 4.5rem;
   font-family: "Delicious Handrawn", cursive;
