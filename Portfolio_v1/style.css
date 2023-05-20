@@ -119,6 +119,7 @@ nav li {
 }
 .education-col-1 img {
   width: 100%;
+  height: auto;
   border-radius: 15px;
 }
 
@@ -142,6 +143,7 @@ nav li {
 }
 .education-col-4 img {
   width: 100%;
+  height: auto;
   border-radius: 15px;
 }
 .sub-title1 {
@@ -256,5 +258,13 @@ textarea {
   padding-top: 50px;
   display: flex;
   justify-content: center;
+}
+.epx-col-2 {
+  flex-basis: 35%;
+}
+.exp-col-1 img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
 }
 
