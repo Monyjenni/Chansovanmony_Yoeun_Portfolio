@@ -263,8 +263,10 @@ textarea {
   flex-basis: 35%;
 }
 .exp-col-1 img {
-  width: 100%;
+  width: 150%;
   height: auto;
   border-radius: 15px;
 }
+
+
 
