@@ -109,9 +109,7 @@ nav li {
   color: blueviolet;
   background-image: url("website_background.jpg");
 }
-.container-ed {
-  width: 80%;
-}
+
 .row-1 {
   display: flex;
   justify-content: space-between;
@@ -119,7 +117,7 @@ nav li {
 }
 
 .education-col-1 {
-  flex-basis: 35%;
+  flex-basis: 50%;
 }
 .education-col-1 img {
  padding-top: 20px;
@@ -129,7 +127,7 @@ nav li {
 } 
 
 .education-col-2 {
-  flex-basis: 60%;
+  flex-basis: 50%;
 }
 
 .sub-title {
@@ -138,6 +136,7 @@ nav li {
 }
 
 .row-2 {
+  padding-top: 20px;
   padding: 100px 0;
   display: flex;
   justify-content: space-between;
@@ -147,8 +146,8 @@ nav li {
   flex-basis: 50%;
 }
 .education-col-4 img {
-  width: 100%;
-  height: auto;
+  width: 700px;
+  height: 400px;
   border-radius: 15px;
 }
 .sub-title1 {
@@ -163,10 +162,11 @@ nav li {
   flex-wrap: wrap;
 }
 .education-col-6 {
-  flex-basis: 60%;
+  flex-basis: 50%;
 }
 .education-col-5 img {
-  width: 100%;
+  width: 700px;
+  height: 400px;
   border-radius: 15px;
 }
 .sub-title2 {
