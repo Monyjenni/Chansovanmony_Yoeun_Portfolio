@@ -141,9 +141,11 @@ nav li {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-left: 700px;
 }
 .education-col-3 {
-  flex-basis: 50%;
+  flex-basis: 100%;
+
 }
 .education-col-4 img {
   width: 700px;
@@ -156,7 +158,7 @@ nav li {
 }
 
 .row-3 {
-  padding: 100px 0;
+  padding: 20px ;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
